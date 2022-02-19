@@ -1,3 +1,4 @@
 [submodule "Packages/omiya-games-audio"]
 	path = Packages/omiya-games-audio
 	url = git@github.com:OmiyaGames/omiya-games-audio.git
+	branch = develop
