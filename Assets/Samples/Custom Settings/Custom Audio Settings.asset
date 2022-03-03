@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 296e4596f63e35b46b7e78a147c31d95, type: 3}
-  m_Name: AudioSettings
+  m_Name: Custom Audio Settings
   m_EditorClassIdentifier: 
   serializedVersion: 0
   mixer: {fileID: 24100000, guid: a27101d6a9911c642abcf0457f27aa0b, type: 2}
