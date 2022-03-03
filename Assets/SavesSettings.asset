@@ -19,5 +19,15 @@ MonoBehaviour:
   versionSaver: {fileID: 11400000, guid: d30d98a3eda482919828531f43e18d57, type: 2}
   upgraders: []
   saveData:
-    serializedList: []
+    serializedList:
+    - {fileID: 11400000, guid: f3048048ea1f8ab4cbd255e88ecde974, type: 2}
+    - {fileID: 11400000, guid: 90b8a2d6acdb65449b1af035765d5bb4, type: 2}
+    - {fileID: 11400000, guid: 0b6c63499599777488f16bc869b99c49, type: 2}
+    - {fileID: 11400000, guid: 7e636b2a6e3d380469cd019b9d329174, type: 2}
+    - {fileID: 11400000, guid: 89c8c87171f56594e954152af1beefd1, type: 2}
+    - {fileID: 11400000, guid: cb0a9a7d577ff4d4ba627dc19922e456, type: 2}
+    - {fileID: 11400000, guid: 436cd6bf9aeadec49b0139cb6a16bb7e, type: 2}
+    - {fileID: 11400000, guid: 9cdd600442a4f2a429a6be985f9c2a3f, type: 2}
+    - {fileID: 11400000, guid: d70d4867145e5bd498a1ddd18ed6b87d, type: 2}
+    - {fileID: 11400000, guid: 93c939324f0c0ba4f81d8916ff660cb7, type: 2}
     isSerializing: 1
