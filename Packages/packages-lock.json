@@ -1,5 +1,78 @@
 {
   "dependencies": {
+    "com.omiyagames.audio": {
+      "version": "file:omiya-games-audio",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.unity.ext.nunit": "1.0.0",
+        "com.omiyagames.saves": "0.2.2-exp.1",
+        "com.omiyagames.managers": "1.0.1-pre.2"
+      }
+    },
+    "com.omiyagames.common": {
+      "version": "1.2.3",
+      "depth": 2,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ext.nunit": "1.0.0"
+      },
+      "url": "https://package.openupm.com"
+    },
+    "com.omiyagames.global": {
+      "version": "1.4.1",
+      "depth": 2,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ext.nunit": "1.0.0",
+        "com.omiyagames.common": "1.2.3",
+        "com.omiyagames.web": "1.0.0"
+      },
+      "url": "https://package.openupm.com"
+    },
+    "com.omiyagames.global.settings": {
+      "version": "1.1.0-pre.2",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ext.nunit": "1.0.0",
+        "com.omiyagames.global": "1.4.1",
+        "com.unity.addressables": "1.19.17"
+      },
+      "url": "https://package.openupm.com"
+    },
+    "com.omiyagames.managers": {
+      "version": "1.0.1-pre.2",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ext.nunit": "1.0.0",
+        "com.omiyagames.common": "1.2.0",
+        "com.omiyagames.global": "1.4.0",
+        "com.omiyagames.saves": "0.2.2-exp.1"
+      },
+      "url": "https://package.openupm.com"
+    },
+    "com.omiyagames.saves": {
+      "version": "0.2.2-exp.1",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ext.nunit": "1.0.0",
+        "com.omiyagames.global.settings": "1.1.0-pre.2"
+      },
+      "url": "https://package.openupm.com"
+    },
+    "com.omiyagames.web": {
+      "version": "1.0.0",
+      "depth": 2,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ext.nunit": "1.0.0",
+        "com.omiyagames.common": "1.0.0"
+      },
+      "url": "https://package.openupm.com"
+    },
     "com.unity.2d.animation": {
       "version": "7.0.3",
       "depth": 1,
@@ -85,6 +158,20 @@
       },
       "url": "https://packages.unity.com"
     },
+    "com.unity.addressables": {
+      "version": "1.19.17",
+      "depth": 2,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.scriptablebuildpipeline": "1.19.5",
+        "com.unity.modules.assetbundle": "1.0.0",
+        "com.unity.modules.imageconversion": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.modules.unitywebrequestassetbundle": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.burst": {
       "version": "1.6.4",
       "depth": 3,
@@ -95,11 +182,10 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.collab-proxy": {
-      "version": "1.15.7",
+      "version": "1.15.12",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.nuget.newtonsoft-json": "2.0.0",
         "com.unity.services.core": "1.0.1"
       },
       "url": "https://packages.unity.com"
@@ -126,7 +212,7 @@
       }
     },
     "com.unity.ide.rider": {
-      "version": "3.0.9",
+      "version": "3.0.12",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -144,7 +230,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.vscode": {
-      "version": "1.2.4",
+      "version": "1.2.5",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
@@ -157,9 +243,9 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
-    "com.unity.nuget.newtonsoft-json": {
-      "version": "2.0.0",
-      "depth": 1,
+    "com.unity.scriptablebuildpipeline": {
+      "version": "1.19.5",
+      "depth": 3,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -194,7 +280,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.timeline": {
-      "version": "1.6.3",
+      "version": "1.6.4",
       "depth": 0,
       "source": "registry",
       "dependencies": {
