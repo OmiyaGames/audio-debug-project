@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Omiya Games - Global Settings
+  m_EditorClassIdentifier: 
+  m_GroupName: Omiya Games - Global Settings
+  m_Data:
+    m_SerializedData: []
+  m_GUID: f1fa581c184ac4842acf191baf1959d7
+  m_SerializeEntries:
+  - m_GUID: a1ce52c7c706d9a4287db82e41c7cba5
+    m_Address: SavesSettings
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 4b32b60bb25cc00418f0d0c9660d7160
+    m_Address: AudioSettings
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 1a8a71dc9d5f66042921ac7a0461c17c, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: fb109d4971cceab4e925caa0852d76e5, type: 2}
+    - {fileID: 11400000, guid: d01dc6c2c61d96640beb9c83fdf113b9, type: 2}
