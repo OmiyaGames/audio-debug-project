@@ -27,7 +27,11 @@ public class AudioLayerControls : MonoBehaviour
 
 		// Setup the mute toggle
 		muteToggle.isOn = layer.IsMuted;
-		muteToggle.onValueChanged.AddListener((isOn) => layer.IsMuted = isOn);
+		muteToggle.onValueChanged.AddListener((isOn) =>
+		{
+			layer.IsMuted = isOn;
+			UpdateLabels(layer);
+		});
 	}
 
 	void UpdateLabels(AudioLayer layer)
