@@ -31,6 +31,10 @@ public class VolumeMenu : MonoBehaviour
 	[SerializeField]
 	AudioLayerControls ambienceControls;
 
+	[Header("Effects")]
+	[SerializeField]
+	EffectsControls effectsControls;
+
 	// Start is called before the first frame update
 	IEnumerator Start()
 	{
@@ -51,5 +55,7 @@ public class VolumeMenu : MonoBehaviour
 
 		playAmbience.Setup(AudioManager.Ambience);
 		ambienceControls.Setup(AudioManager.Ambience);
+
+		effectsControls.Setup();
 	}
 }

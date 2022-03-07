@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 296e4596f63e35b46b7e78a147c31d95, type: 3}
-  m_Name: Custom Audio Settings
+  m_Name: Audio Settings - Custom
   m_EditorClassIdentifier: 
   serializedVersion: 0
   mixer: {fileID: 24100000, guid: a27101d6a9911c642abcf0457f27aa0b, type: 2}
@@ -156,7 +156,6 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  duckParam: Duck Level
   main:
     volumeSaver: {fileID: 11400000, guid: f3048048ea1f8ab4cbd255e88ecde974, type: 2}
     isMutedSaver: {fileID: 11400000, guid: 90b8a2d6acdb65449b1af035765d5bb4, type: 2}
@@ -178,8 +177,8 @@ MonoBehaviour:
     isMutedSaver: {fileID: 11400000, guid: cb0a9a7d577ff4d4ba627dc19922e456, type: 2}
     volumeParam: Sound Effects Volume
     pitchParam: Sound Effects Pitch
-    defaultGroup: {fileID: -8247839761791358478, guid: a27101d6a9911c642abcf0457f27aa0b, type: 2}
-    defaultUiGroup: {fileID: -7288787046693745064, guid: a27101d6a9911c642abcf0457f27aa0b, type: 2}
+    defaultGroup: {fileID: -8247839761791358478, guid: 5b825116d1e62944dbb890d12be39c2a, type: 2}
+    defaultUiGroup: {fileID: -7288787046693745064, guid: 5b825116d1e62944dbb890d12be39c2a, type: 2}
   voices:
     volumeSaver: {fileID: 11400000, guid: 436cd6bf9aeadec49b0139cb6a16bb7e, type: 2}
     isMutedSaver: {fileID: 11400000, guid: 9cdd600442a4f2a429a6be985f9c2a3f, type: 2}
@@ -198,3 +197,7 @@ MonoBehaviour:
     - {fileID: -3782822659594943893, guid: a27101d6a9911c642abcf0457f27aa0b, type: 2}
     - {fileID: 284820087614726871, guid: a27101d6a9911c642abcf0457f27aa0b, type: 2}
     - {fileID: -2253115075788515170, guid: a27101d6a9911c642abcf0457f27aa0b, type: 2}
+  timeScaleSnapshots:
+  - mixer: {fileID: 24100000, guid: 5b825116d1e62944dbb890d12be39c2a, type: 2}
+    defaultSnapshot: {fileID: 24508402, guid: 5b825116d1e62944dbb890d12be39c2a, type: 2}
+    pausedSnapshot: {fileID: -3591923354945178783, guid: 5b825116d1e62944dbb890d12be39c2a, type: 2}
