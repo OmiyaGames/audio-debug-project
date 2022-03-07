@@ -2,3 +2,7 @@
 	path = Packages/omiya-games-audio
 	url = git@github.com:OmiyaGames/omiya-games-audio.git
 	branch = develop
+[submodule "Packages/omiya-games-managers"]
+	path = Packages/omiya-games-managers
+	url = git@github.com:OmiyaGames/omiya-games-managers.git
+	branch = develop
