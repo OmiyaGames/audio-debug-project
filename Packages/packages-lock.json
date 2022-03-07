@@ -11,7 +11,7 @@
     },
     "com.omiyagames.common": {
       "version": "1.2.3",
-      "depth": 2,
+      "depth": 3,
       "source": "registry",
       "dependencies": {
         "com.unity.ext.nunit": "1.0.0"
@@ -31,7 +31,7 @@
     },
     "com.omiyagames.global.settings": {
       "version": "1.2.0-pre.1",
-      "depth": 3,
+      "depth": 2,
       "source": "registry",
       "dependencies": {
         "com.unity.ext.nunit": "1.0.0",
@@ -41,18 +41,17 @@
       "url": "https://package.openupm.com"
     },
     "com.omiyagames.managers": {
-      "version": "1.0.1-pre.3",
-      "depth": 1,
-      "source": "registry",
+      "version": "file:omiya-games-managers",
+      "depth": 0,
+      "source": "embedded",
       "dependencies": {
         "com.unity.ext.nunit": "1.0.0",
         "com.omiyagames.saves": "0.2.3-exp.1"
-      },
-      "url": "https://package.openupm.com"
+      }
     },
     "com.omiyagames.saves": {
       "version": "0.2.3-exp.1",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.ext.nunit": "1.0.0",
@@ -62,7 +61,7 @@
     },
     "com.omiyagames.web": {
       "version": "1.0.0",
-      "depth": 2,
+      "depth": 3,
       "source": "registry",
       "dependencies": {
         "com.unity.ext.nunit": "1.0.0",

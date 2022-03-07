@@ -39,6 +39,6 @@ public class EffectsControls : MonoBehaviour
 		{
 			timeScale = 0f;
 		}
-		timeScaleLabel.text = $"x{timeScale:0.#}";
+		timeScaleLabel.text = $"x{timeScale:0.00}";
 	}
 }
