@@ -12,6 +12,7 @@ public class PlayAudioControl : MonoBehaviour
 	public void Setup(AudioLayer.SubLayer layer)
 	{
 		// Setup audio
+		audioSource.ignoreListenerPause = true;
 		audioSource.outputAudioMixerGroup = layer.DefaultGroup;
 
 		// Setup toggle
