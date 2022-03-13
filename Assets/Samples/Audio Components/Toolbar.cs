@@ -17,6 +17,12 @@ public class Toolbar : MonoBehaviour
 	[SerializeField]
 	Toggle volume;
 
+	[Header("Other")]
+	[SerializeField]
+	TMP_Dropdown layerDropDown;
+	[SerializeField]
+	Toggle pauseOnTimeStop;
+
 	[Header("Time")]
 	[SerializeField]
 	Slider timeScaleSlider;
@@ -30,15 +36,15 @@ public class Toolbar : MonoBehaviour
 		// Setup the audio
 		yield return AudioManager.Setup();
 
-		SetupMutateToggls();
-
+		SetupMutateToggles();
+		SetupOtherSfxControls();
 		SetupTimeControls();
 	}
 
-	void SetupMutateToggls()
+	void SetupMutateToggles()
 	{
-		sfx.IsMutatingPitch = pitch.isOn;
-		sfx.IsMutatingVolume = volume.isOn;
+		pitch.isOn = sfx.IsMutatingPitch;
+		volume.isOn = sfx.IsMutatingVolume;
 
 		pitch.onValueChanged.AddListener((isOn) =>
 		{
@@ -47,6 +53,21 @@ public class Toolbar : MonoBehaviour
 		volume.onValueChanged.AddListener((isOn) =>
 		{
 			sfx.IsMutatingVolume = isOn;
+		});
+	}
+
+	void SetupOtherSfxControls()
+	{
+		layerDropDown.value = sfx.NumberOfLayers - 1;
+		pauseOnTimeStop.isOn = sfx.IsPausedOnTimeStop;
+
+		layerDropDown.onValueChanged.AddListener((index) =>
+		{
+			sfx.NumberOfLayers = index + 1;
+		});
+		pauseOnTimeStop.onValueChanged.AddListener((isOn) =>
+		{
+			sfx.IsPausedOnTimeStop = isOn;
 		});
 	}
 
