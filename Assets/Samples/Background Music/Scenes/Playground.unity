@@ -638,7 +638,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba39cf331941cdc44af0e9d151bbcd6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playMusic: {fileID: 11400000, guid: 17f16feaa21981e4fb31d6881bd4d62d, type: 2}
+  playMusic:
+    m_AssetGUID: 17f16feaa21981e4fb31d6881bd4d62d
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
 --- !u!1 &1205902071
 GameObject:
   m_ObjectHideFlags: 0
@@ -1265,6 +1269,10 @@ PrefabInstance:
       propertyPath: m_Follow
       value: 
       objectReference: {fileID: 8338988565591873055}
+    - target: {fileID: 8762286023885395323, guid: 9c489a8547f4d9e4387da15a4ff82c81, type: 3}
+      propertyPath: m_Lens.m_SensorSize.x
+      value: 1.7790055
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9c489a8547f4d9e4387da15a4ff82c81, type: 3}
 --- !u!4 &7288094137546172434 stripped

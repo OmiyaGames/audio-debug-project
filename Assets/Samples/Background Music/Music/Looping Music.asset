@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 042d09f6344449149a0222550d57ea49, type: 3}
   m_Name: Looping Music
   m_EditorClassIdentifier: 
-  loopingClip:
-    m_AssetGUID: 57891d741f74b1843b95bb8bd9bccdc1
-    m_SubObjectName: 
-    m_SubObjectType: 
-    m_EditorAssetChanged: 0
+  loop: {fileID: 8300000, guid: 57891d741f74b1843b95bb8bd9bccdc1, type: 3}
+  addIntroSting: 0
+  introSting: {fileID: 0}
+  introStingLength: 0
