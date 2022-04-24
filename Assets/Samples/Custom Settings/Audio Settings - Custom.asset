@@ -191,20 +191,20 @@ MonoBehaviour:
     defaultAudioSetup: {fileID: 510468775912118851, guid: 137ab2542d2374b4d8dc16b1fbf009d8, type: 3}
     fadeLayers:
     - group: {fileID: -8558441678866494280, guid: e60b40d7d4b8160498cfee51b18722ca, type: 2}
-      paramName: 
+      paramName: Fade 1 Volume
     - group: {fileID: 2068805176508917942, guid: e60b40d7d4b8160498cfee51b18722ca, type: 2}
-      paramName: 
+      paramName: Fade 2 Volume
     - group: {fileID: -3380059979980416576, guid: e60b40d7d4b8160498cfee51b18722ca, type: 2}
-      paramName: 
+      paramName: Fade 3 Volume
   ambienceSetup:
     defaultAudioSetup: {fileID: 510468775912118851, guid: 137ab2542d2374b4d8dc16b1fbf009d8, type: 3}
     fadeLayers:
     - group: {fileID: -8558441678866494280, guid: 6b30d0c1e0d618145bf31dd2e54b787c, type: 2}
-      paramName: 
+      paramName: Fade 1 Volume
     - group: {fileID: 2068805176508917942, guid: 6b30d0c1e0d618145bf31dd2e54b787c, type: 2}
-      paramName: 
+      paramName: Fade 2 Volume
     - group: {fileID: -3380059979980416576, guid: 6b30d0c1e0d618145bf31dd2e54b787c, type: 2}
-      paramName: 
+      paramName: Fade 3 Volume
   timeScaleEffects:
   - mixer: {fileID: 24100000, guid: 6dbc8e9233eda2c4483e0f3d63315f90, type: 2}
     defaultSnapshot: {fileID: 24508402, guid: 6dbc8e9233eda2c4483e0f3d63315f90, type: 2}
