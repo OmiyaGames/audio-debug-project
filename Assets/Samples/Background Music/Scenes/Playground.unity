@@ -649,7 +649,8 @@ MonoBehaviour:
     m_SubObjectType: 
     m_EditorAssetChanged: 0
   fadeInSeconds: 0.5
-  stackBehavior: 0
+  alwaysRestart: 0
+  historyBehavior: 0
 --- !u!1 &1205902071
 GameObject:
   m_ObjectHideFlags: 0
