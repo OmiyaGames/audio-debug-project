@@ -68,7 +68,7 @@ public class ChangeMusicOnEnter : MonoBehaviour
 					DurationSeconds = fadeInSeconds,
 					FadeOut = new()
 					{
-						Duration = fadeInSeconds
+						DurationSeconds = fadeInSeconds
 					}
 				});
 			}
