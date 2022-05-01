@@ -16,19 +16,7 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: c8e3413b48a511f4d98f443fa31a494c
-  m_SerializeEntries:
-  - m_GUID: 57891d741f74b1843b95bb8bd9bccdc1
-    m_Address: Assets/Samples/Background Music/Music/Ketsa - That's a Beat 1.mp3
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 17f16feaa21981e4fb31d6881bd4d62d
-    m_Address: Assets/Samples/Background Music/Music/Looping Music.asset
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 36779a603272a67459316b26233c4c49
-    m_Address: Assets/Samples/Background Music/Music/Looping - Bus Stop.asset
-    m_ReadOnly: 0
-    m_SerializedLabels: []
+  m_SerializeEntries: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 1a8a71dc9d5f66042921ac7a0461c17c, type: 2}
   m_SchemaSet:
