@@ -186,7 +186,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9816c838f515dc940b55a64e790cf078, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  useAddressables: 0
   playMusic: {fileID: 11400000, guid: 36779a603272a67459316b26233c4c49, type: 2}
+  playAmbience: {fileID: 0}
+  playMusicRef:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  playAmbienceRef:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   fadeInSeconds: 0.5
   playerTag: Player
 --- !u!1001 &363758527
