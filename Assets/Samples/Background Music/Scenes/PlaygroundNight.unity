@@ -735,19 +735,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba39cf331941cdc44af0e9d151bbcd6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  useAddressables: 0
-  playMusic: {fileID: 11400000, guid: 36779a603272a67459316b26233c4c49, type: 2}
-  playAmbience: {fileID: 0}
-  playMusicRef:
-    m_AssetGUID: 
-    m_SubObjectName: 
-    m_SubObjectType: 
-    m_EditorAssetChanged: 0
-  playAmbienceRef:
-    m_AssetGUID: 
-    m_SubObjectName: 
-    m_SubObjectType: 
-    m_EditorAssetChanged: 0
+  playMusic:
+    useAddressable: 0
+    asset: {fileID: 11400000, guid: 36779a603272a67459316b26233c4c49, type: 2}
+    assetRef:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  playAmbience:
+    useAddressable: 0
+    asset: {fileID: 0}
+    assetRef:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
   fadeInSeconds: 0.5
   alwaysRestart: 0
   historyBehavior: 0
@@ -878,9 +881,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9816c838f515dc940b55a64e790cf078, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playMusic: {fileID: 11400000, guid: 17f16feaa21981e4fb31d6881bd4d62d, type: 2}
+  playMusic:
+    useAddressable: 0
+    asset: {fileID: 11400000, guid: 17f16feaa21981e4fb31d6881bd4d62d, type: 2}
+    assetRef:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  playAmbience:
+    useAddressable: 0
+    asset: {fileID: 0}
+    assetRef:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  colliderTag: Player
+  revertOnExit: 1
   fadeInSeconds: 0.5
-  playerTag: Player
+  alwaysRestart: 0
 --- !u!54 &1372393269
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1280,19 +1300,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9005220659476430818, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 11.25606
+      value: 4.7800007
       objectReference: {fileID: 0}
     - target: {fileID: 9005220659476430818, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.375
+      value: 7.491
       objectReference: {fileID: 0}
     - target: {fileID: 9005220659476430818, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 24.862776
+      value: 9.2
       objectReference: {fileID: 0}
     - target: {fileID: 9005220659476430818, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.815568
+      value: 0.7071079
       objectReference: {fileID: 0}
     - target: {fileID: 9005220659476430818, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1300,7 +1320,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9005220659476430818, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.5786613
+      value: -0.70710576
       objectReference: {fileID: 0}
     - target: {fileID: 9005220659476430818, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
       propertyPath: m_LocalRotation.z
