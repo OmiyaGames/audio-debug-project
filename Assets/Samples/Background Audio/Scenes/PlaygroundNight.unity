@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 8900000, guid: 619e305f5165a9946b7f72464e44ca4a, type: 3}
   m_Sun: {fileID: 2114283754330233425}
-  m_IndirectSpecularColor: {r: 0.081151076, g: 0.0635092, b: 0.078617446, a: 1}
+  m_IndirectSpecularColor: {r: 0.1727952, g: 0.2600245, b: 0.36693013, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -323,7 +323,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0.35, y: 1}
-  m_AnchoredPosition: {x: 10, y: -20}
+  m_AnchoredPosition: {x: 10.000015, y: -20}
   m_SizeDelta: {x: -20, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &735530284
@@ -1042,6 +1042,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba39cf331941cdc44af0e9d151bbcd6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  musicBehavior:
+    behavior: 2
+    audioFile:
+      useAddressable: 0
+      asset: {fileID: 11400000, guid: 36779a603272a67459316b26233c4c49, type: 2}
+      assetRef:
+        m_AssetGUID: 
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+    fadeDurationSeconds: 0.5
+    alwaysRestart: 0
+  ambienceBehavior:
+    behavior: 1
+    audioFile:
+      useAddressable: 0
+      asset: {fileID: 0}
+      assetRef:
+        m_AssetGUID: 
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+    fadeDurationSeconds: 0.5
+    alwaysRestart: 0
   playMusic:
     useAddressable: 0
     asset: {fileID: 11400000, guid: 36779a603272a67459316b26233c4c49, type: 2}
@@ -1326,6 +1350,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9816c838f515dc940b55a64e790cf078, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  musicBehavior:
+    behavior: 2
+    audioFile:
+      useAddressable: 0
+      asset: {fileID: 11400000, guid: 17f16feaa21981e4fb31d6881bd4d62d, type: 2}
+      assetRef:
+        m_AssetGUID: 
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+    fadeDurationSeconds: 0.5
+    alwaysRestart: 0
+  ambienceBehavior:
+    behavior: 0
+    audioFile:
+      useAddressable: 0
+      asset: {fileID: 0}
+      assetRef:
+        m_AssetGUID: 
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+    fadeDurationSeconds: 0.5
+    alwaysRestart: 0
   playMusic:
     useAddressable: 0
     asset: {fileID: 11400000, guid: 17f16feaa21981e4fb31d6881bd4d62d, type: 2}
@@ -1846,19 +1894,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9005220659476430818, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 11.25606
+      value: 4.7800007
       objectReference: {fileID: 0}
     - target: {fileID: 9005220659476430818, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.375
+      value: 7.491
       objectReference: {fileID: 0}
     - target: {fileID: 9005220659476430818, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 24.862776
+      value: 9.2
       objectReference: {fileID: 0}
     - target: {fileID: 9005220659476430818, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.815568
+      value: 0.7071079
       objectReference: {fileID: 0}
     - target: {fileID: 9005220659476430818, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1866,7 +1914,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9005220659476430818, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.5786613
+      value: -0.70710576
       objectReference: {fileID: 0}
     - target: {fileID: 9005220659476430818, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
       propertyPath: m_LocalRotation.z
